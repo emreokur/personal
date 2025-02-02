@@ -167,6 +167,23 @@
     </div>
   </section>
 
+  <section class="main">
+        <div class="calendar">
+            <!-- Loading stuff -->
+            Loading the calendar...
+        </div>
+        
+        
+        <script src="./github-calendar.js"></script>
+        <script>
+            GitHubCalendar(".calendar", "emreokur", {
+                responsive: true,
+                tooltips: true,
+                global_stats: false // This disables the contribution stats
+            });
+        </script>
+    </section>
+
   <!-- Contact Section -->
   <section id="contact" class="py-5">
     <div class="container">
